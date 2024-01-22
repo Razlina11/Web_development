@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Search App</title>
+    <style>
+        fieldset{
+            height:600px;
+            width:800px;
+            background-color: beige;
+        }
+        label{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+        }
+        input{
+            border: 2px solid black ;
+            
+        }
+        .searchContainer{
+            font-size:large;
+            color:crimson;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <fieldset>
+    <h1>Pokemon Search and Display</h1>
+    <div class="searchContainer">
+        <label for="pokemon-search">Search for a Pokémon:</label><br><br>
+        <input type="text" id="pokemon-search" placeholder="Enter Pokémon name or ID"><br><br><br>
+        <center>
+        <button id="search-button">Search</button>
+    </center>
+    </div>
+    <div id="pokemon-info"></div>
+    <script src="script.js"></script>
+</fieldset>
+</center>
+</body>
+</html>
