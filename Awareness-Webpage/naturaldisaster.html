@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awareness page</title>
+    <link rel="icon" href="blog.png">
+    <style>
+        html{
+            background-color:black;
+            color:#f2f2f2;
+        }
+        cite a:hover{
+            color:white;
+        }
+        header,footer{
+            text-align: center;
+            color:White;
+            background-color: black;
+            padding:10px;
+        }
+        .navbar {
+  display: flex;
+  background-color: #333;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: x-large;
+}
+.navbar a:hover {
+  background-color:White;
+  color: black;
+}
+.nd{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+}
+.gallery{
+    padding:0px;
+    width : 100%;
+    max-width:1100px;
+    margin:0 auto;
+    background: #f2f2f2;
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows:250px;
+    grid-auto-flow:dense;
+}
+.v-stretch{
+    grid-row:span 2;
+}
+.h-stretch{
+    grid-column:span 2;
+}
+.big-stretch{
+    grid-row:span 2;
+    grid-column:span 2;
+}
+.gallery div img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.container{
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+@media(max-width: 560px)
+{
+    .v-stretch{
+        grid-row: span 1;
+    }
+    .h-stretch{
+        grid-column: span 1;
+    }
+    .big-stretch{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>🌪️Natural Disaster🌪️</h1>
+    </header>
+    <div class="navbar">
+        <a href="disaster.html">Home</a>
+        <a href="#">Natural Disaster</a>
+        <a href="manmadedisaster.html">Man-made Disaster</a>
+        <a href="real.html">Real Incidents</a>
+        </div>
+        <div class="container">
+        <details>
+            <summary>Natural Disaster?</summary>
+              <p>A natural disaster is a disaster with links to natural hazards. A natural disaster can cause loss of life or damage property, and typically leaves economic damage in its wake. The severity of the damage depends on the affected population's resilience and on the infrastructure available.<br><br><source><cite><a href="https://en.wikipedia.org/wiki/Tsunami">Tsunami</a></cite></p><br>
+              <source><cite><a href="https://en.wikipedia.org/wiki/Flood">Flood</a></cite></p><br>
+              <source><cite><a href="https://en.wikipedia.org/wiki/Earthquake">EarthQuake</a></cite></p>
+              <br>
+              <source><cite><a href="https://en.wikipedia.org/wiki/VolcanoEruption">Volcano Eruption</a></cite></p>
+          </details>
+        </div>
+        <div class="gallery">
+            <div class="v-stretch">
+                <img src="natural1.jpg">
+            </div>
+            <div>
+                <img src="natural2.jpg">
+            </div>
+            <div class="h-stretch">
+                <img src="natural8">
+
+            </div>
+            <div class="big-stretch">
+
+                <img src="natural4.jpg">
+            </div>
+            <div>
+                <img src="natural5.jfif">
+            </div>
+            <div class="v-stretch">
+                <img src="natural6.jpg">
+            </div>
+            <div class="h-stretch">
+                <img src="natural7.jpg">
+
+            </div>
+            <div class="v-stretch">
+                <img src="natural9.png">
+            </div>
+        </div>
+        <footer>
+            &copy; 2023 All rights reserved | Designed by:Razlina
+        </footer>
+    </body>
+    </html>
